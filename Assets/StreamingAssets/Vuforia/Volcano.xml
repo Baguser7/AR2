@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="BUtton_fix" size="4.000000 2.828462" />
+    <ImageTarget name="Button" size="0.420000 0.296989" />
+    <ImageTarget name="Untitled-2-01" size="0.420000 0.296989" />
+    <ImageTarget name="ScanButt" size="0.200000 0.282864" />
+    <ImageTarget name="Scan" size="1.000000 1.414365" />
+    <ImageTarget name="IMG_20230513_134252-min" size="0.300000 0.206872" />
+  </Tracking>
+</QCARConfig>
