@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class CanvasUI : MonoBehaviour
 {
     public static CanvasUI instance;
@@ -18,6 +18,7 @@ public class CanvasUI : MonoBehaviour
     public Image IntervalUI;
     public Image UnIntervalUI;
 
+    public TextMeshProUGUI text;
 
     private void Awake()
     {
