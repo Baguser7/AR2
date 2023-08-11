@@ -44,19 +44,19 @@ public class Raycast : MonoBehaviour
             tempOutline = hit.collider.GetComponent<Outline>();
             switch (hit.collider.gameObject.name)
             {
-                case "Cube (1)":
+                case "Batuan":
                     _objectLabel.text = $"{hit.collider.name}";
                     tempOutline.enabled = true;
                     campuranVolcano = hit.collider.GetComponent<CampuranVolcano>();
                     break;
 
-                case "Cube (2)":
+                case "Lava":
                     _objectLabel.text = $"{hit.collider.name}";
                     tempOutline.enabled = true;
                     campuranVolcano = hit.collider.GetComponent<CampuranVolcano>();
                     break;
 
-                case "Cube (3)":
+                case "Air":
                     _objectLabel.text = $"{hit.collider.name}";
                     tempOutline.enabled = true;
                     campuranVolcano = hit.collider.GetComponent<CampuranVolcano>();
